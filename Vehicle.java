@@ -45,10 +45,11 @@ class Vehicle{
 		}
 		if (onTime==false){
 			System.out.println("not reached onTime");
-			return false;
+			
 			
 		}
-	}
+		return false;
+	 }
 	static boolean transport( boolean onTime){
 		
 		System.out.println("entered transport reached onTime");
@@ -60,11 +61,11 @@ class Vehicle{
 		}
 		if (onTime==false){
 			System.out.println("not reached onTime");
-			return false;
+			
 			
 		}
-		
-	}
+		return false;
+	 }
 		
 		
 		
