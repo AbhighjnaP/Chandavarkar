@@ -15,7 +15,7 @@ class Sports{
 	{
 		System.out.println("Lets Panga");
 		System.out.println("Team Member Jerssy Numbers:"+numbers.length);
-		for(int index=0;index<numbers.length;index++)
+		for(int count;count<number.length;count++);
 		{
 			int ref=numbers[index];
 			System.out.println("Numbers:"+ref);
